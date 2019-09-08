@@ -25,21 +25,18 @@ main {
   grid-template-rows: 150px 1fr;
   grid-template-columns: 1fr;
 }
+
 .result-area {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 150px;
 
   input {
     height: 40%;
     width: 60%;
   }
-}
-
-.result-area {
-  display: flex;
-  height: 150px;
 }
 
 .calculator-area {
