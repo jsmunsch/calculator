@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+header {
+  background-color: $primary;
+  text-align: center;
+  color: white;
+  margin-bottom: 1px;
+
+  line-height: 5px;
+}
 body {
   margin: 0;
   display: grid;
@@ -14,10 +22,12 @@ body {
 
 input {
   border: 1px solid black;
+  background-color: $accent;
 }
 
 button {
   border: 1px solid black;
+  background-color: $accent;
 }
 
 main {
@@ -32,10 +42,13 @@ main {
   justify-content: center;
   align-items: center;
   height: 150px;
+  background-color: $color3;
+  border: 1px solid $color4;
 
   input {
     height: 40%;
     width: 60%;
+    font-size: 2.5em;
   }
 }
 
@@ -43,6 +56,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
+  background-color: $secondary;
 }
 
 .man-input {
@@ -55,6 +69,7 @@ main {
   input {
     height: 40px;
     width: 50%;
+    font-size: 1.8em;
   }
 }
 
@@ -63,6 +78,9 @@ main {
   height: 60%;
   flex-direction: row;
   flex-wrap: wrap-reverse;
+  background-color: $color3;
+  justify-content: center;
+  border: 1px solid $color4;
 
   button {
     height: 50px;
