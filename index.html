@@ -5,24 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
   </head>
   <body>
     <header>Hi I am the Header</header>
     <main>
       <!-- Flex Box with items Centered. Result will be shown in a input field. -->
-      <section class="resultArea">
-        <input type="text" />
-      </section>
+      <section class="result-area"><input type="text" /></section>
       <!-- This is gonna be a flex Box for the calc input. Flex Box with 2 rows -->
-      <section class="calculatorArea">
+      <section class="calculator-area">
         <!-- This is gonna be a flex box with 2 columns, items centered and second box with flex wrap -->
         <div class="numbers">
           <!-- Manual number input with an input field -->
-          <div class="manInput">
+          <div class="man-input">
             <input type="text" />
           </div>
           <!-- 10 Buttons to select single numbers that will be added to the manual Input field -->
-          <div class="autoInput">
+          <div class="auto-input">
             <button>0</button>
             <button>1</button>
             <button>2</button>
@@ -36,7 +35,13 @@
           </div>
         </div>
         <!-- There will be 5 Buttons to select different calculation methods -->
-        <div class="mathButton"></div>
+        <div class="math-button">
+          <button>+</button>
+          <button>-</button>
+          <button>/</button>
+          <button>*</button>
+          <button>=</button>
+        </div>
       </section>
     </main>
     <!-- Footer is not really neeed but just there for now -->
