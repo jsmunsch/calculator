@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-rows: 50px 1fr;
+  grid-template-columns: 1fr;
+  height: 100vh;
+}
+
+input {
+  border: 1px solid black;
+}
+
+button {
+  border: 1px solid black;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 150px 1fr;
+  grid-template-columns: 1fr;
+}
+.result-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    height: 40%;
+    width: 60%;
+  }
+}
+
+.result-area {
+  display: flex;
+  height: 150px;
+}
+
+.calculator-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.man-input {
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    height: 40px;
+    width: 50%;
+  }
+}
+
+.auto-input {
+  display: flex;
+  height: 60%;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+
+  button {
+    height: 50px;
+    width: 50px;
+    margin: 3px;
+  }
+}
+
+.math-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+
+  button {
+    height: 70px;
+    width: 70px;
+    margin: 1px;
+  }
+}
