@@ -23,6 +23,7 @@
   "homepage": "https://github.com/jsmunsch/calculator#readme",
   "dependencies": {},
   "devDependencies": {
+    "eslint": "^6.3.0",
     "sass": "^1.23.0-module.beta.1"
   }
 }
