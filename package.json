@@ -1,0 +1,29 @@
+{
+  "name": "calculator",
+  "version": "0.0.1",
+  "description": "simple javascript calculator",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch input.scss output.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsmunsch/calculator.git"
+  },
+  "keywords": [
+    "calculator",
+    "javascript"
+  ],
+  "author": "Jonas Munsch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsmunsch/calculator/issues"
+  },
+  "homepage": "https://github.com/jsmunsch/calculator#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "sass": "^1.23.0-module.beta.1"
+  }
+}
