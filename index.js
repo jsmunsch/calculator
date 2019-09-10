@@ -18,19 +18,15 @@ operatorButtons.forEach(button => {
       numberInput.value = "";
       return result;
     } else if (button.innerHTML === "*") {
-      // const operator = button.innerHTML;
       resultField.value = multiply();
       numberInput.value = "";
     } else if (button.innerHTML === "/") {
-      // const operator = button.innerHTML;
       resultField.value = divide();
       numberInput.value = "";
     } else if (button.innerHTML === "+") {
-      // const operator = button.innerHTML;
       resultField.value = add();
       numberInput.value = "";
     } else if (button.innerHTML === "-") {
-      // const operator = button.innerHTML;
       resultField.value = substract();
       numberInput.value = "";
     }
@@ -38,7 +34,7 @@ operatorButtons.forEach(button => {
 });
 
 function multiply() {
-  return resultField.value * numberInput.value;
+  return (resultField.value * numberInput.value).toFixed(2);
 }
 
 function divide() {
